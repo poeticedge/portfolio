@@ -1,0 +1,171 @@
+/*portfolio*/
+html {
+
+}
+
+body {
+	background-position: 100px top;
+	background-image: url("https://unsplash.com/photos/7kr2ioPfpRc");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-color: #d236e0;
+	font-size: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	color: #f7f7f7;
+}
+
+
+
+p {
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+.container {
+	min-width: 300px;
+	min-height: 100%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+
+}
+
+.head {
+	overflow: auto;
+	padding-top: 20px;
+	display: block;
+}
+
+.main-navigation {
+	position: static;
+	width: auto;
+	height: auto;
+	padding: 0;
+	font-size: 21px;
+	float: right;
+	margin: 100px;
+	background-color: transparent
+					!important;
+}
+
+.main-navigation .menu {
+	float:right;
+	position: static;
+	border: 0 none;
+	font-size: 21px;
+}
+
+/*style a buttons*/
+.main-navigation li {
+	color: #f7f7f7;
+	background-color: #3f3f3f;
+	display: inline-block;
+	padding: 14px 14px 14px 18px;
+    margin-left: 8px;
+}
+
+.main-navigation ul {
+	list-style-type: none;
+
+} 
+
+.main-navigation li a {
+	color: #f7f7f7;
+	text-decoration: none;
+
+} 
+
+.main-navigation li a:hover{
+
+}
+
+.main {
+	display: block;
+	padding-top: 150px;
+	padding-bottom: 40px;
+	overflow: auto;
+}
+
+.wrapper {
+	min-width: 300px;
+	margin: 0 auto;
+	padding: 0, 5%;
+}
+
+.home .greeting{
+	width: 45%;
+	max-width: 600px;
+	overflow: auto;
+}
+
+.main-headline {
+	font-size: 80px;
+}
+
+.home.intro {
+	margin: 32px 0;
+	line-height: 1.375em;
+}
+
+.home .intro-headline{
+	display: inline;
+}
+
+.home .intro-healine, .home.intro>p {
+	display: inline;
+}
+.foot {
+	overflow: auto;
+	padding: 40px 0 47px;
+	text-align: center;
+	display: block;
+	margin: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	box-sizing: inherit;
+}
+
+.foot .wrapper {
+	min-width: 300px;
+	margin: 0 auto;
+	padding: 0, 5%;
+}
+
+.copyright {
+	float: left;
+	margin: 14px, 0, 0;
+	font-size: 14px;
+}
+
+.social {
+	float: right;
+	position: relative;
+	z-index: 0;
+	overflow: auto;
+	
+}
+
+.social .social-item {
+	float: left;
+}
+
+.social .social-link {
+    position: relative
+}
+
+.social .twitter .social-link {
+
+}
+
+.social .social-link {
+	position: relative;
+	color: #f7f7f7;
+	display: block;
+	overflow: hidden;
+
+}
